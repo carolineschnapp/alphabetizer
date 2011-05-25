@@ -4,8 +4,7 @@ Sort the children of an element aphabetically. The sort is not case-sensitive.
 
 Usage:
 
-bc.
-jQuery(document).ready(function() {
+bc. jQuery(document).ready(function() {
   jQuery('#my-list').alpha();
 });
 
@@ -13,8 +12,7 @@ The above will sort all the children of #my-list alphabetically.
 
 You can sort the children of many elements at once:
 
-bc.
-jQuery(document).ready(function() {
+bc. jQuery(document).ready(function() {
   jQuery('.alpha-sort').alpha();
 });
 
