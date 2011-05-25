@@ -1,0 +1,13 @@
+h1. What's this for
+
+Sort the children of an element aphabetically. The sort is not case-sensitive.
+
+Usage:
+
+    jQuery(document).ready(function() {
+      jQuery('#my-list').alpha();
+    });
+
+The above will sort all the children of #my-list alphabetically.
+
+What is returned is the sorted element.
