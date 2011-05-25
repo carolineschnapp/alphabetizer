@@ -4,10 +4,18 @@ Sort the children of an element aphabetically. The sort is not case-sensitive.
 
 Usage:
 
-    jQuery(document).ready(function() {
-      jQuery('#my-list').alpha();
-    });
+bc.
+jQuery(document).ready(function() {
+  jQuery('#my-list').alpha();
+});
 
 The above will sort all the children of #my-list alphabetically.
+
+You can sort the children of many elements at once:
+
+bc.
+jQuery(document).ready(function() {
+  jQuery('.alpha-sort').alpha();
+});
 
 What is returned is the sorted element.
