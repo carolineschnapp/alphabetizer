@@ -1,5 +1,5 @@
 /*
- * Alpha (for jQuery)
+ * Alphabetize (for jQuery)
  * version: 1.0 (24/05/2011)
  * @requires any version of jQuery
  *
@@ -11,7 +11,7 @@
  * Usage:
  *
  *  jQuery(document).ready(function() {
- *    jQuery('#my-list').alpha();
+ *    jQuery('#my-list').alphabetize();
  *  });
  *
  *  The above will sort all the children of #my-list alphabetically.
@@ -21,7 +21,7 @@
  */
 
 (function( $ ){
-  $.fn.alpha = function() {
+  $.fn.alphabetize = function() {
     return this.each(function() {
       
       var $this = $(this);

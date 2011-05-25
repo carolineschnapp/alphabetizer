@@ -5,7 +5,7 @@ This is a jQuery plugin that sorts the children of an element aphabetically. The
 Usage:
 
 bc. jQuery(document).ready(function() {
-  jQuery('#my-list').alpha();
+  jQuery('#my-list').alphabetize();
 });
 
 The above will sort all the children of #my-list alphabetically.
@@ -13,7 +13,7 @@ The above will sort all the children of #my-list alphabetically.
 You can sort the children of many elements at once:
 
 bc. jQuery(document).ready(function() {
-  jQuery('.alpha-sort').alpha();
+  jQuery('.alpha-sort').alphabetize();
 });
 
 The sorted elements are returned.
