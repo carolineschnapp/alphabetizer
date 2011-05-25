@@ -1,6 +1,6 @@
 h1. What's this for
 
-Sort the children of an element aphabetically. The sort is not case-sensitive.
+This is a jQuery plugin that sorts the children of an element aphabetically. The sort is not case-sensitive.
 
 Usage:
 
@@ -16,4 +16,4 @@ bc. jQuery(document).ready(function() {
   jQuery('.alpha-sort').alpha();
 });
 
-What is returned is the sorted element.
+The sorted elements are returned.
